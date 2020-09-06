@@ -9,6 +9,7 @@ const user =require('../modules/user');
      catch (err) {
          res.status(400).json({message:err.message})
      }
+     
 
  //creating one
  router.post('/',(req,res) => {

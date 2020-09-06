@@ -16,4 +16,3 @@ Date:{
     Default: Date.now
 };
 modules.exports = mongoose.modules('userser',userschema)
-
