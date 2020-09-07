@@ -19,6 +19,8 @@ const user =require('../modules/user');
  router.patch('/',(req,res) => {
 
  })
+//connect database
+mongoodb:mongodb+srv://Stezona:<password>@cluster0.aijq0.mongodb.net/<dbname>?retryWrites=true&w=majority
  
 //signup route
 app.use('/', signuproute)
